@@ -1,0 +1,54 @@
+<DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+			dropdown
+		</title>
+		<style>
+			*{
+				margin:0%;
+				padding:0%;
+			}
+			.main{
+				height:600px;
+				width:50%;
+				background-color:red;
+				display:flex;
+				justify-content:center;
+				margin:auto;
+				align-items:center;
+			}
+			.hoverme{
+				height:200px;
+				width:200px;
+				background-color:black;
+				border-radius:50%;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				
+			}
+			.hoverme:hover > .yellow{
+				display:block;
+			}
+			.yellow{
+				height:500px;
+				width:500px;
+				background-color:yellow;
+				position:absolute;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				display:none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="hoverme">
+				<div class="yellow">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
